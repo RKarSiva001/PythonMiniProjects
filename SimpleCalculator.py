@@ -16,13 +16,12 @@ def div(a, b):
     ans = a / b
     print(str(a) + " / " + str(b) + " = " + str(ans) + "\n")
 
-# from unittest import FunctionTestCase
-# print options to the User
-# ask for values
-# call the Functions
 # while loop to continue the program until the user wants to exit
 
 while True:
+    
+# print options to the User
+
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
@@ -30,6 +29,9 @@ while True:
     print("%. Exit")
 
     choice = input("Enter your Choice: ")
+    
+# ask for values
+# call the Functions
 
     if choice == "1":
         print("Addition")
